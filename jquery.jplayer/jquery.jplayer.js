@@ -1755,8 +1755,8 @@
 			}
 		},
 
-    /*
-    we don't support this.
+		/*
+		Pandora doesn't support this.
 
 		playHead: function(p) {
 			p = this._limitValue(p, 0, 100);
@@ -1965,8 +1965,8 @@
 		playBar: function(e) { // Handles clicks on the playBar
 			this.seekBar(e);
 		},
-    /*
-    we don't support this.
+		/*
+		Pandora doesn't support this.
 		repeat: function() { // Handle clicks on the repeat button
 			this._loop(true);
 		},
