@@ -8,8 +8,8 @@
  *  - http://www.gnu.org/copyleft/gpl.html
  *
  * Author: Mark J Panaghiston
- * Version: 2.3.3
- * Date: 20th May 2013
+ * Version: 2.3.4
+ * Date: 28th May 2013
  */
 
 /* Code verified using http://www.jshint.com/ */
@@ -454,8 +454,8 @@
 	$.jPlayer.prototype = {
 		count: 0, // Static Variable: Change it via prototype.
 		version: { // Static Object
-			script: "2.3.3",
-			needFlash: "2.3.3",
+			script: "2.3.4",
+			needFlash: "2.3.4",
 			flash: "unknown"
 		},
 		options: { // Instanced in $.jPlayer() constructor
@@ -1755,8 +1755,8 @@
 			}
 		},
 
-    /*
-    we don't support this.
+		/*
+		Pandora doesn't support this.
 
 		playHead: function(p) {
 			p = this._limitValue(p, 0, 100);
@@ -1965,8 +1965,8 @@
 		playBar: function(e) { // Handles clicks on the playBar
 			this.seekBar(e);
 		},
-    /*
-    we don't support this.
+		/*
+		Pandora doesn't support this.
 		repeat: function() { // Handle clicks on the repeat button
 			this._loop(true);
 		},
